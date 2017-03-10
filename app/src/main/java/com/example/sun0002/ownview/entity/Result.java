@@ -50,6 +50,8 @@ public class Result {
          * PointValueCol : [{"Key":"IsAuto","Value":"0","Value_bool":false},{"Key":"IsManual","Value":"1","Value_bool":false},{"Key":"IsPrepairing","Value":"2","Value_bool":false},{"Key":"WarningC","Value":"3","Value_bool":false},{"Key":"WarningB","Value":"4","Value_bool":false},{"Key":"FWDRotatingHighSpeed","Value":"12","Value_bool":false},{"Key":"REVRotatingHighSpeed","Value":"13","Value_bool":false},{"Key":"FWDRotatingLowSpeed","Value":"14","Value_bool":false},{"Key":"REVRotatingLowSpeed","Value":"15","Value_bool":false},{"Key":"Position1","Value":"16","Value_bool":false},{"Key":"Position2","Value":"17","Value_bool":false},{"Key":"Position3","Value":"18","Value_bool":false},{"Key":"Position4","Value":"19","Value_bool":false},{"Key":"Position5","Value":"20","Value_bool":false},{"Key":"Position6","Value":"21","Value_bool":false},{"Key":"Position7","Value":"22","Value_bool":false},{"Key":"Position8","Value":"23","Value_bool":false}]
          * PointValueOptions : []
          * RotateAngle : 0
+         *  "rotation":{}
+         *
          */
 
         private String ItemType;

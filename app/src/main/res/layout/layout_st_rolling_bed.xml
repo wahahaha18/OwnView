@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/ll_st"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#2B4DD5">
+            <TextView
+                android:id="@+id/st_title"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:text="sample"
+                android:gravity="center"
+                android:textSize="9sp"
+                android:textColor="@android:color/white"
+                />
+
+            <ImageView
+                android:id="@+id/st_iv_jiantou"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_53"
+                android:padding="4dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#00FD00"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:id="@+id/st_xiaceng_model_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+            <RelativeLayout
+                android:id="@+id/xiaceng_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/st_xiaceng_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_31"
+                    android:layout_centerInParent="true"
+                    android:padding="3dp"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+            <ImageView
+                android:id="@+id/st_xiaceng_model2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/st_fra">
+
+        <LinearLayout
+            android:id="@+id/st_fra_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <View
+                android:id="@+id/st_left"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="#868686"
+                android:orientation="horizontal"/>
+
+            <View
+                android:id="@+id/st_center"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="#C8CACA"
+                android:orientation="horizontal"/>
+
+            <View
+                android:id="@+id/st_right"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="#868686"
+                android:orientation="horizontal"/>
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/st_view"
+            android:visibility="gone"
+            layout="@layout/layout_st_circle"/>
+        <!--<include-->
+            <!--android:id="@+id/st_view"-->
+            <!--android:visibility="gone"-->
+            <!--layout="@layout/layout_rolling_bed" />-->
+    </FrameLayout>
+
+</LinearLayout>
